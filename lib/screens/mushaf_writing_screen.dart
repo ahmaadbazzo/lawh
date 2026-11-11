@@ -24,7 +24,6 @@ class _MushafWritingScreenState extends State<MushafWritingScreen> {
   late final PageController _pageController;
   int? _lastMushafPage;
   bool _hasPositionedMushaf = false;
-  int _selectedSurahId = 1;
   final _LiveWritingController _writingController = _LiveWritingController();
   final FocusNode _writingFocus = FocusNode();
   late int _page;
